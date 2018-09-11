@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: right;
+  float: left;
+}
+
+.right-side {
+  display: block;
+  margin: 30px;
+}
+
+.right-side input {
+  margin: 10px 0;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
